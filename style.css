@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+html{
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+
+body{
+    height: 100%;
+}
+
+
+.navbar{
+    z-index: 10000;
+    top: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 1);
+    margin: auto;
+    max-width: 3000px;
+    z-index: -10px;
+
+}
+.navbar2{
+    z-index: 10000;
+    top: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.container{
+    max-width: 3000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+}
+
+.container2{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    top: 0px;
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2px;
+}
+
+
+.col-2{
+    flex-basis: 100%;
+    min-width: 300px;
+    text-size-adjust: 8pt;
+    position: absolute;
+    bottom: 0;    
+}
+
+
+.img-container{
+    text-align: center;
+    padding-top: 10%;
+    position: fixed;
+}
+#wholepage{
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#pagewrapper{
+    min-height: 500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: o;
+    font-family: baskerville;
+}
+nav{
+    width: 95%;
+    overflow: hidden;
+    position: fixed;
+    top: o;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#section1 { 
+    height: 3000px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+#section2 {
+    height: 3000px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+.header .row{
+    margin-top: 70px;
+}
+.features{
+    float: left;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 9pt;
+   
+}
+.features img{
+    align-items:center;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 24.5%;
+    min-width: 100px;
+    display: inline;
+    padding-left: 1%;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding: 10px;
+ 
+}
+.col-3 img{
+    width: 100%;
+}
+
+.p-quote1{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Libre Baskerville', serif;
+    word-spacing: 3px;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+
+.background{
+    background: url(picture/second\ pic.png) no-repeat center center fixed;
+    background-position: bottom fixed;
+    background-repeat: no-repeat;
+    background-size :100%;
+    height: 20%;
+    margin: auto;
+    padding: 0;
+    padding-top: 400px;
+    padding-bottom: 700px;
+
+}
+.background1{
+    background: url(picture/FIRST\ PIC.png) no-repeat center center fixed;
+    background-position: top fixed;
+    background-repeat: no-repeat;
+    background-size :100%;
+    height: 20%;
+    margin: auto;
+    padding: o;
+    padding-top: 400px;
+    padding-bottom: 700px;
+
+}
+
+.textoffer{
+    text-align: center;
+   
+}
+.offers{
+    text-align: center;
+    text-size-adjust: 50pt;
+
+}
+
+.footer{
+    font-size: 14px;
+    padding:20px;
+}
+
+
+.foot-col4{
+    font-size: 25px;
+    font-family: 'Calligraffitti', cursive;
+}
+
+.footer1{
+    font-size: 12px;
+   padding-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.logomiddle{
+   margin: 10px auto 0px auto;
+   padding-right: 200px;
+
+}
+.logomiddle3{
+    margin: 10px auto 0px auto;
+    padding-right: 200px;
+    padding-left: 425px;
+
+}
+.p1{
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.next-text{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 5%;
+}
+
+.Simpletext{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 30px;
+}
+
+.col-3{
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+}
+.col-3 img{
+    width: 30%;
+    align-items: center;
+}
+
+
+.row4{
+    display:contents;
+    float: left;
+}
+
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    margin-bottom: 50px;
+    align-items: center;
+    padding-left: 2%;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 90%;
+    align-items: center;
+
+}
+h5{
+    color: black;
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+
+
+}
+
+.col-4 p1{
+    color: rgb(89, 89, 89);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 11px;
+
+}
+.col-4:hover{
+    transform: translateY(-8px);
+
+}
+.last-text{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    word-spacing: 25px;
+    color: black;
+}
+
+.background3{
+    background: url(picture/story.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size :100%;
+    margin: auto;
+    padding: o;
+    padding-top: 400px;
+    padding-bottom: 700px;
+    overflow: hidden;
+    scroll-behavior: none;
+
+}
+.About{
+    flex-basis: 100%;
+    min-width: 300px;
+    text-size-adjust: 8pt;
+    position: absolute;
+    bottom: 0; 
+    padding-top: 20%;
+    padding-bottom: 10%;
+    text-align: justify;
+    color: white;
+    word-spacing: 2px;
+    width: 90%; 
+    font-size: 12pt;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter;
+    float: left;
+    padding-left: 11%;
+
+}
+
+
+
+
+.background4{
+    background: url(picture/jeweller.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size :100%;
+    margin: auto;
+    padding: o;
+    padding-top: 400px;
+    padding-bottom: 700px;
+    overflow: hidden;
+    scroll-behavior: none;
+
+}
+
+.who{
+    flex-basis: 100%;
+    min-width: 300px;
+    text-size-adjust: 8pt;
+    position: absolute;
+    bottom: 0; 
+    padding-top: 5%;
+    padding-bottom: 12%;
+    text-align: center;
+    color: white;
+    word-spacing: 2px;
+    word-wrap: break-word;
+    width: 70%;
+    padding-left: 500px;
+    margin-left: -5%;
+    font-size: 20pt;
+    font-family: 'Libre Baskerville', serif;
+
+}
+.our{
+    flex-basis: 100%;
+    bottom: 0; 
+    padding-top: 5%;
+    padding-bottom: 9%;
+    text-align: center;
+    color: white;
+    word-spacing: 3px;
+    width: 70%;
+    padding-left: 500px;
+    margin-left: -5%;
+    font-size: 9pt;
+    font-family: 'Libre Baskerville', serif;flex-basis: 100%;
+    min-width: 300px;
+    text-size-adjust: 8pt;
+    position: absolute;
+    bottom: 0;  
+    
+}
+.create{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+.text-about{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 30px;
+
+}
+/*-----------all product page ---------*/
+.row-2{
+justify-content: space-between;
+margin: 150px auto 50px;
+font-family: 'Libre Baskerville', serif;
+word-spacing: 2px;
+}
+select{
+    padding: 5px;
+
+}
+select:focus{
+    outline: none;
+
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(29, 125, 29);
+    color: white;
+    padding: 8px 30px;
+}
+
+.important{
+    padding-top: 5%;
+    word-spacing: 2px;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+}
+.single-product input{
+    width: 45px;
+    height: 40px;
+    margin-top: 3px;
+}
+.contact-info1 h7{
+    font-weight: bold;
+   
+}
+.contact-info1{
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.icon{
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.next-text2{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: xx-large;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 20%;
+}
+.next-text3{
+    flex-basis: 100%;
+    min-width: 300px;
+    font-size: 14pt;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 3%;
+    padding-left: 6%;
+    padding-right: 25%;
+    font-weight: bold;
+}
+.next-text3 h8{
+    font-weight: bold;
+}
+
+.next-text4{
+    font-size: small;
+    padding-right: 5%;
+}
+.container8{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+
+}
+form button{
+    padding: 15px;
+    background: rgb(29, 125, 29);
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.column{
+    float:left;
+    width: 100%;
+    padding: 5px;
+    
+}
+.row ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
